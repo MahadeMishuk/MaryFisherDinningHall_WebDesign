@@ -1,0 +1,308 @@
+/* header n logo */
+header {
+    background-color: #e3e0e0;
+    padding: 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 50px; /* adjust the size as needed */
+    height: 50px; /* adjust the size as needed */
+    margin-right: 10px;
+    
+    border-radius: 5px;
+  }
+  .logo .GoucherLogo img{
+    width: 350px; /* adjust the size as needed */
+    height: 45px; /* adjust the size as needed */
+    margin-right: 1%;
+    margin-left: 74%;
+  
+  }
+
+  .logo .BonLogo img{
+    width: 250px; /* adjust the size as needed */
+    height: 50px; /* adjust the size as needed */
+    margin-right: 1%;
+    margin-left: 205%;
+  }
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+
+ /* Navigation Menu */
+  nav {
+    background-color: #3a8a5a;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #e24b4b8f;
+    border-radius: 100px;
+  }
+  
+
+  .hero {
+    position: relative;
+    height: 500px; 
+    overflow: hidden;
+  }
+  
+  .slider {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+  }
+  
+ 
+  
+  
+  /* about */
+
+
+
+  .about {
+    background-color: #3a8a5a;
+    padding: 5% 10%;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: justify;
+  }
+  
+  .about h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: black;
+  }
+  
+  .about button {
+    text-align: center;
+    color: yellow;
+  }
+  
+/* featured Recipes */
+.featured-recipes {
+  background-color: #e3e0e0;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.featured-recipes h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.recipe-item {
+  text-align: center;
+}
+
+.recipe-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.recipe-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.recipe-item p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.recipe-item a {
+  display: inline-block;
+  background-color: #775d28;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.recipe-item a:hover {
+  background-color: #555;
+}
+.btn {
+  background-color: #605d92;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 100px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  padding: 1% 5%;
+  margin: 3% 44%;
+
+}
+
+/* chef-profiles*/
+.chef-profiles {
+  background-color: #3a8a5a;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.chef-profiles h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.chef-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.chef-item {
+  text-align: center;
+}
+
+.chef-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.chef-item h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.chef-item p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* contacts*/
+.contact-info {
+    background-color: #e3e0e0;
+    padding: 50px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-info h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.contact-info ul li {
+  margin-bottom: 5px;
+}
+
+
+
+/*footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-nav ul,
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul li,
+.footer-links li {
+  margin: 0 10px;
+}
+
+.footer-nav ul li a,
+.footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+
+
+
+
